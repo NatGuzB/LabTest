@@ -13,7 +13,7 @@ class UserController{
     }
 
     remove(user){
-        // Corregir la lógica para eliminar el usuario por su ID
+        // Eliminar el usuario por su ID
         this.users = this.users.filter(function(ele){
             return ele.id !== user.id; 
         });
